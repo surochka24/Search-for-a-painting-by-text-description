@@ -87,7 +87,7 @@ CLIP ViT-B/32 - базовая англоязычная версия CLIP и Mul
 ## Структура проекта
 Проект реализован в виде одного Jupyter Notebook, который последовательно выполняет все этапы.
 
-*код_поиск_картин_по_описанию.ipynb* – основной файл, содержащий:
+*code_Search-for-a-painting-by-text-description.ipynb* – основной файл, содержащий:
   - Загрузку и подготовку датасета
   - Вычисление и сохранение эмбеддингов изображений
   - Функции для поиска и визуализации результатов
@@ -121,7 +121,7 @@ pip install -r requirements.txt
 Запустите Jupyter Notebook: 
 
 ```bash
-jupyter notebook код_поиск_картин_по_описанию.ipynb
+jupyter notebook code_Search-for-a-painting-by-text-description.ipynb
 ```
 
 ---
