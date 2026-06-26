@@ -116,41 +116,11 @@ cd wikiart-text-search
 pip install -r requirements.txt
 ```
 
----
-
-## Запуск проекта
-
-### Шаг 1. Подготовка данных
+Запустите Jupyter Notebook: 
 
 ```bash
-01_prepare_dataset.ipynb
+jupyter notebook код_поиск_картин_по_описанию.ipynb
 ```
-
-Формируется подвыборка WikiArt и таблица метаданных.
-
-### Шаг 2. Вычисление эмбеддингов
-
-```bash
-02_compute_embeddings.ipynb
-```
-
-Для всех изображений вычисляются CLIP embeddings.
-
-### Шаг 3. Поиск по тексту
-
-```bash
-03_search.ipynb
-```
-
-Введите текстовый запрос и получите наиболее похожие картины.
-
-### Шаг 4. Оценка качества
-
-```bash
-04_evaluation.ipynb
-```
-
-Запуск экспериментов и расчет метрик качества.
 
 ---
 
@@ -162,9 +132,9 @@ pip install -r requirements.txt
 
 Примеры запросов:
 
-- "sunset over sea"
-- "portrait of woman"
-- "snowy landscape"
+- *sunset over sea*
+- *portrait of woman*
+- *snowy landscape*
 
 Для каждого запроса система возвращает наиболее похожие изображения из коллекции.
 
