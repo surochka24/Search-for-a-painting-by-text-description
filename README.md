@@ -136,7 +136,7 @@ jupyter notebook код_поиск_картин_по_описанию.ipynb
 
 - *sunset over sea*
 - *portrait of woman*
-- *snowy landscape*
+- *dancing people*
 
 Для каждого запроса система возвращает наиболее похожие изображения из коллекции.
 
